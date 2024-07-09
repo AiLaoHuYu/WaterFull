@@ -47,6 +47,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     //这里用的是Android Studio3.0
     implementation (libs.glide)
-//    kapt (libs.compiler)
+    annotationProcessor (libs.compiler)
     implementation (libs.okhttp3.integration)
 }
